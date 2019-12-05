@@ -1,0 +1,480 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+    ],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "0958549f-7446-4e35-868e-ac4ae1b283b6",
+            "Description": "Navigate to : 'http://www.apple.com/support/country'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "http://www.apple.com/support/country",
+                "BaseUrl": "",
+                "SearchByImageFirst": 0,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataDrivenFrameworkzu5og2fs.typ",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5de6ec1a-fbf4-48b3-b6fb-b20475759e93",
+            "Description": "Click 'IndiaSpan'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://support.apple.com/choose-country-region",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Choose your country or region - Official Apple Support",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "ChooseYourCountryOr"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "phZq+6OlruUXHGXhvwHMBVWIXEM=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "IndiaSpan",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=$(Country)"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[11]/a[1]/span[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "15FD8839DE30584F54FFB9D200BE1FD368BF6E28DA436B7339FCE40642488AC9",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {
+                            "Expression": "TextContent=$(Country)"
+                          }
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataDrivenFrameworkx5u3z3za.q1s",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "51052f0f-c626-46ce-8f1d-fadb888488a7",
+            "Description": "Verify 'TextContent' 'Contains' 'Welcome' on 'WelcomeToH1Tag' - DataDriven: [$(welcome)]",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__value": {
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "Welcome",
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://support.apple.com/en-in",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Official Apple Support",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "OfficialAppleSupport0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "WG9vPfX/r7uS8qI6ggqoaxkMdiY=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "WelcomeToH1Tag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=h1"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=^$(welcome Message)"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/section[1]/div[1]/div[1]/div[2]/div[1]/h1[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "23B4DF2B6D6B84DCA21E0EFFC44B6156B8B1EA58DDA32283FD7945EB40C0DE07",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {
+                            "Expression": "tagname=h1,TextContent=^$(welcome Message)"
+                          }
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {
+                  "ExpectedString": "$(welcome)"
+                }
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataDrivenFrameworkjburgsj2.5mg",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "textTarget",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "https://support.apple.com/en-vn",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Official Apple Support",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "OfficialAppleSupport"
+            }
+          },
+          "Frame": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+            "__value": {
+              "uniqueKey": "WG9vPfX/r7uS8qI6ggqoaxkMdiY=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "WelcomeToH1Tag",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=h1"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TextContent=^$(welcome Message)"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[6]/section[1]/div[1]/div[1]/div[2]/div[1]/h1[1]",
+              "ImageSearchClauses": [
+                {
+                  "__type": "ArtOfTest.Common.ImageSearchClause",
+                  "__value": {
+                    "Resolution": "1920, 1080",
+                    "BroweserType": 7,
+                    "Image": "23B4DF2B6D6B84DCA21E0EFFC44B6156B8B1EA58DDA32283FD7945EB40C0DE07",
+                    "Index": 0,
+                    "MatchThreshold": 90,
+                    "OsVersion": "10.0.17134.0",
+                    "ScreenScale": 1.25,
+                    "ScrollOnImageSearch": null
+                  }
+                }
+              ],
+              "DataBindingExpressions": {
+                "Expression": "tagname=h1,TextContent=^$(welcome Message)"
+              }
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      }
+    ],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "Letmecall.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "DataDrivenFramework.resx",
+    "ElementImageStoreFilePath": "DataDrivenFramework.imgstore",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": true,
+        "DataType": 0,
+        "BuiltInData": [
+          {
+            "Country": "Bolivia",
+            "welcome Message": "Bienvenido"
+          },
+          {
+            "Country": "Ireland",
+            "welcome Message": "Welcome"
+          },
+          {
+            "Country": "italia",
+            "welcome Message": "Benvenuto"
+          },
+          {
+            "Country": "India",
+            "welcome Message": "Welcome "
+          }
+        ],
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "DataDrivenFramework",
+    "Owner": "",
+    "Path": "DataDrivenFramework.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "8833cab6-3718-409c-aef4-5de5b9d73c28",
+    "Id": "8833cab6-3718-409c-aef4-5de5b9d73c28",
+    "ProjectId": "7ec68e4c-78de-4aad-bfac-15f7a37d0119",
+    "Version": 200
+  }
+}

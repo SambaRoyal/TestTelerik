@@ -1,0 +1,28 @@
+    ======  ======
+    Time:12/4/2019 1:08:45 PM
+    Title: Initiate log
+    Message: 
+    Time:12/4/2019 1:08:45 PM
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:12/4/2019 1:08:45 PM
+    Title: Requesting EVT
+    Message: EVTP
+    Time:12/4/2019 1:08:45 PM
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:12/4/2019 1:08:45 PM
+    Title: LICENSER
+    Message: READ REGS START
+    Time:12/4/2019 1:08:45 PM
+    Title: LICENSER
+    Message: TRL MODE
+    Time:12/4/2019 1:08:45 PM
+    Title: LICENSER
+    Message: DS LEFT22
+    Time:12/4/2019 1:08:45 PM
+    Title: LICENSER
+    Message: DT MARK PASSED22.00:00:00
+    Time:12/4/2019 1:08:50 PM
+    Title: ILM action
+    Message: SHUT DOWN QA

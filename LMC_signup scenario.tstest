@@ -1,0 +1,2649 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "cd3966bd-6c64-4a41-a7d7-3643188aef67",
+            "Description": "Navigate to : 'https://www.letmecall.com/'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "https://www.letmecall.com/",
+                "BaseUrl": "",
+                "SearchByImageFirst": 0,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariofvpcuszh.kyw",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "8f953499-e2f2-4a91-8639-4a9a6dbc8b57",
+            "Description": "Wait for element 'OrderingAppH2Tag1' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Letmecall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Letmecall"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "6waQXz0dg1IG1Rh0tBagVwLkoH0=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "OrderingAppH2Tag1",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=h2:7"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h2[1]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariotyx0m4gy.zqu",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ab651144-9e5a-4681-9d3d-83f569a44e2a",
+            "Description": "Click 'OrderingAppH2Tag1'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Letmecall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Letmecall"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "6waQXz0dg1IG1Rh0tBagVwLkoH0=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "OrderingAppH2Tag1",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=h2:7"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h2[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "F3238026F621ECCC72966EE09FE2AC08587500E12FD9A5545D49484129F8C59D",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenarionvqd524c.3r1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "61fa5288-d0f8-435a-8b59-9261d973583f",
+            "Description": "Wait for Exists 'PopMobileDiv'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "SearchByImageFirst": 0,
+                "ExistsNot": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "fVhs7mAJU1FdFFgEHbNxEt/p22c=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PopMobileDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=pop-mobile"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenarioqpc3yvmr.c45",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "97a4d2c5-c0d6-4544-b59d-e197b409f03d",
+            "Description": "Click 'MainPopupcloseButtonTag'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "v5ARRFr6GPi+OKW9x/lnJamv02o=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "MainPopupcloseButtonTag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=main-popupclose"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=button"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "00E69C86ED033DA0934CF3BF4C17BEDA6389A24267499BA3C464B0ADA2754E9E",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenario0ngpfv4a.zsc",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "daabe831-aa7e-4394-8c92-ab55397332bc",
+            "Description": "Verify 'SignupBtnLink' is enabled",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.EnabledVerificationDescriptor",
+              "__value": {
+                "IsEnabled": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "70y/LzLFUcPjhhfRPXftEDG1uW0=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SignupBtnLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=signup-btn"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[1]/a[2]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "BE3C5F792E0FEDF1C2BAF8028ED8F32C31E40EDD11755D867C978261CB8E93C5",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariodeala0v0.ncx",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "963cb7de-513d-4074-8584-8afca734a9d2",
+            "Description": "Click 'SignupBtnLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "70y/LzLFUcPjhhfRPXftEDG1uW0=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SignupBtnLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=signup-btn"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[1]/a[2]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "B5A9CCFC2599DFA70F29D02B9E9BB3A820068802A8D5F629FB91D57B82D1B1E3",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariodeifnsij.tjt",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f8073059-7813-4d10-84ad-91666f027272",
+            "Description": "Enter text 'sambaiah' in 'FirstNameText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "sambaiah",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "sambaiah",
+                  "TypedText": "sambaiah",
+                  "CaretPosition": 8,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "5kPF6SnuuGFgPmZBUM1wunuc0Uo=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "FirstNameText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=firstName"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "EAFD798138887C6A920DD1AC809F2C8167C972A96E0F272D0D36EF24454C91DF",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": false,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 8,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariokcepdeft.axy",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "dc42bf50-d11b-458f-ae1b-9c99f3fd53cb",
+            "Description": "Keyboard (KeyPress) - Tab (1 times) on 'EmailAddressEmail'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopKeyboardActionDescriptor",
+              "__value": {
+                "focus": true,
+                "KeyPress": "Tab",
+                "HoldFor": 150,
+                "Action": 0,
+                "RepeatCount": 1,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "nO60KijHJXZrQf0d5eUri8Crrkc=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "EmailAddressEmail",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=emailAddress"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[4]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "43AA783678809A8E070C2692AB3470665540626BCC6C84EF6CB0AA8AAA901731",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputEmail",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenarious1nxugv.e2f",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "2b7d9708-5fce-48bb-b6a7-d0f62b16ac88",
+            "Description": "Enter text 'sambaiah.patti@letmecall.com' in 'EmailAddressEmail'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "sambaiah.patti@letmecall.com",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "sa",
+                  "TypedText": "sa",
+                  "CaretPosition": 0,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "nO60KijHJXZrQf0d5eUri8Crrkc=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "EmailAddressEmail",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=emailAddress"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[4]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "1CA15F49F681E25EFD404A0FDD6CE680CE661E8484D8012AA52C32864924E719",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputEmail",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": false,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 10,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariobtpwbhfw.tcd",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "e2391d5a-be9c-4de9-848e-ce065791ddc4",
+            "Description": "Click 'Div'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "fYLu0pNIa3MJxiQAuWPdmas1UDc=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "Div",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=signup"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=div:4"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[5]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "71C3ED2F72930BA5D701FEF13B6B5AD73EA58B98B7213F33FB536DD5C376D64F",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 11,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenarioydylmmrx.jwp",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "e5eb2d5f-4ad6-41ca-88fb-4e38aa70a839",
+            "Description": "Enter text '9666383600' in 'PhoneNoText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "9666383600",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "7",
+                  "TypedText": "7",
+                  "CaretPosition": 1,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "6KXGZR43+9xPS5UBiq2egs0jlEE=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PhoneNoText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=phoneNo"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[6]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "404615BAE16D5169CA1E5426F5546AEF1A6B479B4DB816C494537A1767621135",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": false,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 12,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenarioinv5m412.voa",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6ffdca83-3524-4974-a77f-39b6238ecfed",
+            "Description": "Enter text 'Samba@123' in 'PasswordPassword'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "Samba@123",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "Sa",
+                  "TypedText": "s",
+                  "CaretPosition": 2,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "vgniFWEPR+vPYUoldZ5eJ8Z8nKk=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PasswordPassword",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=password"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[8]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "E6782F1784407FD224C200C9D5A4D0061A16EE85D3942A1866F5CB9FD45E55FE",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": true,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 13,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariozi2ifiko.wi1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "268d1ae5-b1f7-453a-ad0d-7974682d9c15",
+            "Description": "Enter text 'Samba@123' in 'JPasswordPassword'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "Samba@123",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "Sam",
+                  "TypedText": "sa",
+                  "CaretPosition": 3,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "IC9n2jhywSFbWte/d/i6i18beWw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "JPasswordPassword",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=j_password"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "9953F763EE5C5A3C99EC652663888D784DC81E9D7BB7AFF1589B5EA2818309AD",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": true,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 14,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenarior2cpptxy.tiq",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "146239b7-8777-4fe8-ba18-b00e8f5c32bb",
+            "Description": "Verify 'LoginButton' is enabled",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.EnabledVerificationDescriptor",
+              "__value": {
+                "IsEnabled": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "H6tYQ1HRT44lGjv1sZWxe2pkCfI=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoginButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=login"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[6]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "CE45C9A4AF0ED5C60CBCBE9E3F1C6BEF9A21A8D378D9B8236B7ED200AF1BD8F0",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 15,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenarionxesuvqw.1sq",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "9fe846cc-54c7-42de-aa1e-69f1c236e0d4",
+            "Description": "Enter text 'sambaiah.patti@letmecall.com' in 'JUsernameText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "sambaiah.patti@letmecall.com",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "samba",
+                  "TypedText": "samba",
+                  "CaretPosition": 5,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "rWieJKtiq1dz1y+5xE0Q7Hr0YFA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "JUsernameText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=j_username"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[2]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "E4FE53E8891C94AF5773F0FAEC40B80AABB4E8312BB6B88929B4F3277ABA0A38",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": false,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 16,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariomuli1zcd.0fr",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6aea3506-1e1b-4114-9b82-3bb5e5acc2cf",
+            "Description": "Wait for input 'JUsernameText' value 'Exact' 'sambaiah.patti@letmecall.com'.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
+              "__value": {
+                "ExpectedValue": "sambaiah.patti@letmecall.com",
+                "CompareType": 0,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "rWieJKtiq1dz1y+5xE0Q7Hr0YFA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "JUsernameText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=j_username"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[2]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "844409CD83FF2707222676808E6EB195A4BDB0FE65BED5FC1A7E4E3FF2D06BAF",
+                                "Index": 1,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 17,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenario1f53k1ge.fia",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "0ae3e778-d0a5-4e32-88e0-c95957f72fcf",
+            "Description": "Enter text 'Samba@123' in 'JPasswordPassword'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "Samba@123",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "Samba@",
+                  "TypedText": "samba",
+                  "CaretPosition": 6,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "IC9n2jhywSFbWte/d/i6i18beWw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "JPasswordPassword",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=j_password"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "C7C3BB091C40287D28AB1A78294726D0125A196B7A6A7742B7263986B15AC412",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": true,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 18,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariomnm1uitd.n1x",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5651ad5f-211f-43f7-9573-79c9a92ae960",
+            "Description": "Verify 'LoginButton' is enabled",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.EnabledVerificationDescriptor",
+              "__value": {
+                "IsEnabled": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "H6tYQ1HRT44lGjv1sZWxe2pkCfI=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoginButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=login"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[6]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "CE45C9A4AF0ED5C60CBCBE9E3F1C6BEF9A21A8D378D9B8236B7ED200AF1BD8F0",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 19,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenario21qhmhpq.auc",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d0d360da-dbd2-4a88-a81b-159aa135f73c",
+            "Description": "Click 'LoginButton'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/register",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCall0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "H6tYQ1HRT44lGjv1sZWxe2pkCfI=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoginButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=login"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[6]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "CE45C9A4AF0ED5C60CBCBE9E3F1C6BEF9A21A8D378D9B8236B7ED200AF1BD8F0",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.25,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 20,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenarioi4bcg24s.df2",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "188744be-ffac-4e62-9c0e-d881a9e99812",
+            "Description": "Wait for Exists 'OrderingAppH2Tag2'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "SearchByImageFirst": 0,
+                "ExistsNot": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Letmecall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Letmecall"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "YEa7J58Dy4Cvh5WfZeTOO3waSTQ=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "OrderingAppH2Tag2",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=h2:3"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h2[1]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 21,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LMC_signup scenariohnceoj5s.pij",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "Letmecall.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "LMC_signup scenario.resx",
+    "ElementImageStoreFilePath": "LMC_signup scenario.imgstore",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "LMC_signup scenario",
+    "Owner": "",
+    "Path": "LMC_signup scenario.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "4247630c-8630-423f-9c5c-486b089e2e2e",
+    "Id": "4247630c-8630-423f-9c5c-486b089e2e2e",
+    "ProjectId": "7ec68e4c-78de-4aad-bfac-15f7a37d0119",
+    "Version": 200
+  }
+}

@@ -1,0 +1,3896 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5a7e6e0d-4694-48b6-986c-c4346dbc8246",
+            "Description": "Navigate to : 'https://www.letmecall.com/'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "https://www.letmecall.com/",
+                "BaseUrl": "",
+                "SearchByImageFirst": 0,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLvhz3j4fu.3gh",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6395b79d-b4f4-4031-8899-675c0aeb5e8f",
+            "Description": "Verify element 'OrderingAppH2Tag' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Letmecall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Letmecall"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "cX5zEfjDknV/8tOl5ChORRMJ46M=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "OrderingAppH2Tag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=h2:8"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h2[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "3535801823CEBEA05EB31905B0D01C996D66B25E8A13B018BADBD92F51A27CE6",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALL21y0jsn1.mkz",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6136c16e-1f82-4458-93eb-02fcc7ba9041",
+            "Description": "Click 'OrderingAppH2Tag'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Letmecall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Letmecall"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "cX5zEfjDknV/8tOl5ChORRMJ46M=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "OrderingAppH2Tag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=h2:8"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h2[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "E80CF5C629B9DBAA3E11FB3364573A7684D6FDFEB80E1FA4DE6AD1122E98538F",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLyfvesyt4.xjk",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "294f495b-a9bc-4d58-bfbe-89e56772d89a",
+            "Description": "Wait for Exists 'PopupImageJpgImage'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "SearchByImageFirst": 0,
+                "ExistsNot": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "2G4kocS0IFrBSXU5eqSJsLnSoPw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PopupImageJpgImage",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "src=/resources/v3/img/Popup_Image.jpg"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=img"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlImage",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLhpnzkjf0.e2z",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c0b88cba-7494-4add-9ef2-6596a631a796",
+            "Description": "Navigate to : 'https://www.letmecall.com/'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "https://www.letmecall.com/",
+                "BaseUrl": "",
+                "SearchByImageFirst": 0,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLxcbuzvgb.ay1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "7992e34e-d13e-4cfa-907e-b85f7a38f3a5",
+            "Description": "Click 'OrderingAppH2Tag'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Letmecall",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Letmecall"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "cX5zEfjDknV/8tOl5ChORRMJ46M=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "OrderingAppH2Tag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=h2:8"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/section[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h2[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "5A8CDDBB40A1E578BA04E3D49E2E4396A61F8AF6E7CCD9F1C15930B630DCBDE9",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALL1si0eppp.kmz",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f6a38a65-7bca-474c-abfd-423c894a74c7",
+            "Description": "Wait for Exists 'PopupImageJpgImage'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "SearchByImageFirst": 0,
+                "ExistsNot": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "2G4kocS0IFrBSXU5eqSJsLnSoPw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PopupImageJpgImage",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "src=/resources/v3/img/Popup_Image.jpg"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=img"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlImage",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLwjbx3eu4.zus",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "413be7d6-49e0-4a51-8d31-703b95115590",
+            "Description": "Click 'MainPopupcloseButtonTag'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "v5ARRFr6GPi+OKW9x/lnJamv02o=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "MainPopupcloseButtonTag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=main-popupclose"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=button"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "44EBF540D5A54BD40B01025B7C2F633BBE480FA1271614B8C086DFB73D1EA8CC",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 8,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLjcfb3w4m.m3s",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "16a50a22-9f08-4a6a-925a-14e0e842a3e1",
+            "Description": "Enter text '500074' in 'SearchboxText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "500074",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "500",
+                  "TypedText": "50",
+                  "CaretPosition": 3,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "zqGibu5C5rb9MqN353So64US/G8=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SearchboxText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=searchbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "E587745B88A23CB6B242B7081EB3789CED7C9554C4B59A047086C588A61F5894",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": false,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALL2l1dlrpi.z2c",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "18565f79-dffd-4500-8fc3-1508b9ceb4fa",
+            "Description": "Click 'SectionTag'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "zsg8k7tYHezsFWV3B+cNPj2hO/w=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SectionTag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=content"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=section:0"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/section[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "2403384BA4C1423A5865014EEC2DAA777F5501B10FEF92E66AD8DB555E1C4B51",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 10,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLr5kqfp30.pq2",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c1226b37-f166-4f4e-b15f-fd9cffc46057",
+            "Description": "Keyboard (KeyPress) - Down (1 times) on 'SearchboxText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopKeyboardActionDescriptor",
+              "__value": {
+                "focus": true,
+                "KeyPress": "Down",
+                "HoldFor": 150,
+                "Action": 0,
+                "RepeatCount": 1,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "zqGibu5C5rb9MqN353So64US/G8=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SearchboxText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=searchbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "11F9A67CC74C332202A984E31313388829122D76CC0C7C4C93F0C568F491E43D",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 11,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLj22bchc1.zmm",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6d53dfe2-9166-47ff-b2d3-a8174daa6b6d",
+            "Description": "Keyboard (KeyPress) - Enter (1 times) on 'SearchboxText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopKeyboardActionDescriptor",
+              "__value": {
+                "focus": true,
+                "KeyPress": "Enter",
+                "HoldFor": 150,
+                "Action": 0,
+                "RepeatCount": 1,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "LetMeCall - Online food delivery from your favorite restaurant.",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "LetMeCallOnlineFood"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "zqGibu5C5rb9MqN353So64US/G8=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SearchboxText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=searchbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "6697B786FA00C4018A28922C1EE6057640D76FBB6604F236B1C6853714C2F0E0",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 12,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLwabcsmpe.5i3",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d8d136dc-fcfc-4ae5-a122-2dbaf1625912",
+            "Description": "Verify input 'SearchboxText' value 'Exact' '500074'.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
+              "__value": {
+                "ExpectedValue": "500074",
+                "CompareType": 0,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "zqGibu5C5rb9MqN353So64US/G8=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SearchboxText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=searchbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "B148828D5BD63F8968285D1E407933C352A9728D3702052C5BEE79C36A0AF126",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 13,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLcgv5mab1.k1c",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b6da3181-a73d-472b-8d29-f271d9100e3c",
+            "Description": "Click 'LoginBtnLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "jB8sem2CqD+DbWQilrc182VEVFg=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoginBtnLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=login-btn"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[1]/a[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "16EE6A9B01C5D53577DEA4E1F6AC66025A7F47A9D4F1F5DD5222458669243BED",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 14,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLvevkc5xc.bjn",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "7c15f8e6-8674-451a-8775-bb3f84d56f6c",
+            "Description": "Verify 'TextContent' 'Contains' 'Log In' on 'LoginBtnLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__value": {
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "Log In",
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "jB8sem2CqD+DbWQilrc182VEVFg=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoginBtnLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=login-btn"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[1]/a[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "7422912C9D665FF8A47AC099AE7854624B3255AE694E9D9D770998A879BF4A03",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 15,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALL1njkn4pg.opa",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f9477fec-2e94-405c-a8e8-f5ae03094ed6",
+            "Description": "Verify 'JUsernameText' is enabled",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.EnabledVerificationDescriptor",
+              "__value": {
+                "IsEnabled": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "rWieJKtiq1dz1y+5xE0Q7Hr0YFA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "JUsernameText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=j_username"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[2]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "819DF7E437B5554C527A5AF9203174D075662C515BAC0BD05E6CB56A0A904D7A",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 16,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALL5qgu3c3u.p01",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "079e0c0a-051f-4091-9a83-ef8e2cf85dc9",
+            "Description": "Enter text 'sambaiah.patti@letmecall.com' in 'JUsernameText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "sambaiah.patti@letmecall.com",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "sambaiah",
+                  "TypedText": "sambaiah",
+                  "CaretPosition": 8,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "rWieJKtiq1dz1y+5xE0Q7Hr0YFA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "JUsernameText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=j_username"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[2]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "819DF7E437B5554C527A5AF9203174D075662C515BAC0BD05E6CB56A0A904D7A",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": false,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 17,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLphhfebzv.2kb",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d724f95c-3f01-4278-9aa4-b85ecd7884d3",
+            "Description": "Click 'Div'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "sGgv3kAsxaTe8/ZEqHaXXcZevJ8=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "Div",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=signin"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=div:1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[2]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "185DFAB6C2420AD3CAD27802C08FD566C013C3465734BE6556908C8CEDD52B94",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 18,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLlwilng2a.fxw",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d2e2406a-ed64-4490-a7c2-56504138d75b",
+            "Description": "Wait for input 'JUsernameText' value 'Exact' 'sambaiah.patti@letmecall.com'.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InputValueVerificationDescriptor",
+              "__value": {
+                "ExpectedValue": "sambaiah.patti@letmecall.com",
+                "CompareType": 0,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "rWieJKtiq1dz1y+5xE0Q7Hr0YFA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "JUsernameText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=j_username"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[2]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "928C0F40D6AE0DF71CC2A15A8D5606E54C9C7B22D94AC89B9CEBF02E111DD703",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 19,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLpq2ikvqt.o3u",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "98b3d651-0323-43e2-b378-bf0e75d2de72",
+            "Description": "Enter text 'Samba@123' in 'JPasswordPassword'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "Samba@123",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "S",
+                  "TypedText": "s",
+                  "CaretPosition": 1,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "IC9n2jhywSFbWte/d/i6i18beWw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "JPasswordPassword",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=j_password"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "3A928D494CB2A5897C8591CBD543C1DD3A515E4AD323C51432A7B524A98CA2E2",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": true,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 20,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLwan4dtx1.caj",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d2447462-bf7c-46be-bcf0-a138ceec6f88",
+            "Description": "Wait for 'JPasswordPassword' is enabled",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.EnabledVerificationDescriptor",
+              "__value": {
+                "IsEnabled": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "IC9n2jhywSFbWte/d/i6i18beWw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "JPasswordPassword",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=j_password"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "6C626B5735BF344E889753910C3B212CBD958FDA40C6F9AE543DB36355D3C885",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 21,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALL2ppzlidr.1ds",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b86f95d7-b956-4523-af3e-d2e6df02ffea",
+            "Description": "Wait for 'LoginButton' is enabled",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.EnabledVerificationDescriptor",
+              "__value": {
+                "IsEnabled": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "H6tYQ1HRT44lGjv1sZWxe2pkCfI=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoginButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=login"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[6]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "ADD5FB26AA1671F0B87EFA5CEC0F4310B4DA012F56DABFE6B193E13DE07190B0",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 22,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLghsnjwtb.tk0",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d84cb91b-e357-46f6-a84e-6685d7129c34",
+            "Description": "Click 'LoginButton'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "H6tYQ1HRT44lGjv1sZWxe2pkCfI=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoginButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=login"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[6]/div[1]/div[1]/div[1]/form[1]/div[6]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "ADD5FB26AA1671F0B87EFA5CEC0F4310B4DA012F56DABFE6B193E13DE07190B0",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 23,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLpygwwefu.pv3",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "57e3ffbd-f9d3-4cb0-a612-da12c4339bc5",
+            "Description": "Verify 'TextContent' 'Contains' 'Our Menu' on 'OurMenuH3Tag'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__value": {
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "Our Menu",
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "veM3B1b2JVE5N+B3FZ7EbHZSjHw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "OurMenuH3Tag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Our Menu"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=h3"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[3]/h3[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "A1AF8F2037E59FE08714ED9EFEAFD96560813110579FF624F16FA66A85EDD3A1",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 24,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLeuzomxjw.rsc",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "64b3a357-0694-4ace-9501-b5f5ce1313b6",
+            "Description": "Invoke 'OnClick' event on 'WorkWithUsLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InvokeEventActionDescriptor",
+              "__value": {
+                "EventType": 11,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "invokeTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "invokeTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "Wg+lwCcj16UPZZqNmRDqPbcuRlg=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "WorkWithUsLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/chef/enquiry"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[3]/ul[1]/li[1]/a[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "07E9E0A611622DA403CDF5FD175884C210750008D39970B0A508A4B7D1E66E37",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 25,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLhz0muyv3.4hh",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6d9f4502-f116-467d-9c2f-c174d00d9c3c",
+            "Description": "Invoke 'OnClick' event on 'DeliverWithUsLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InvokeEventActionDescriptor",
+              "__value": {
+                "EventType": 11,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "invokeTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "invokeTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "xaEDgR3kkFfcCLAqgCKrl2V49zA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "DeliverWithUsLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/driver/enquiry"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "D82215234EDC7600A0487F200E4F96623BE676C9729BEF9060496EAA745EBB0D",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 26,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLaykbjdex.dmu",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d1a8264a-6bf7-4114-a743-a8b7a21d478a",
+            "Description": "Invoke 'OnClick' event on 'FAQLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InvokeEventActionDescriptor",
+              "__value": {
+                "EventType": 11,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "invokeTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "invokeTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "VDVFDv6LibHdGt3EgHBzpAiYmtU=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "FAQLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/faq"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/a[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "5FA565623B0730A3788FFB0DC6AC4DF4C399053D58315863F56300B7AA2FB5FB",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 27,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLpxs2jla3.bzh",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "874ae9db-c932-4820-b365-83b0cfc3be0e",
+            "Description": "Invoke 'OnClick' event on 'BlogLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InvokeEventActionDescriptor",
+              "__value": {
+                "EventType": 11,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "invokeTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "invokeTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "kH0QRu7JLHkHkgPCw1J3zgXX45k=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "BlogLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/blog"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[3]/ul[1]/li[4]/a[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "8BC86B817BC26B53A517782F5CADD0D147BB2B614B6AD2BF659F9E5B15D637A7",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 28,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLd50nwcki.dud",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ca17644d-8d0e-4f54-b200-9a4dc90c1da4",
+            "Description": "Invoke 'OnClick' event on 'TCLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InvokeEventActionDescriptor",
+              "__value": {
+                "EventType": 11,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "invokeTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "invokeTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "xz8hywCsYJ8sWgLbmr26sF0RDEk=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TCLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/terms"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/footer[1]/div[1]/div[1]/div[3]/ul[1]/li[5]/a[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "6E259E2FE62E2F6E213B4F6D2A18EF2DDF1E450D49FDE9BB3CC6B189A7251425",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 29,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLmc2e4lo5.krs",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "142d4db9-0450-4f1d-a6d4-5677b73066fb",
+            "Description": "Click 'Div'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "tOHNfzWeg4bFn7vix8mZznVWEMM=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "Div0",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=Navbar_1"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=div:2"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "E12CDCB279351FF4A58C3653D14EAE8F27EB72DDDF4B21F60C84476CB7EF8E79",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 30,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLbj53ttem.d0g",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "093bac34-2a09-4ecf-bb65-942baa67f81a",
+            "Description": "Invoke 'OnMouseDown' event on 'Span'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.InvokeEventActionDescriptor",
+              "__value": {
+                "EventType": 13,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "invokeTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "invokeTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "RwffV7TjElTsGEmZ2x3izVWMDko=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "Span",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=menuProfile"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=span:1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[2]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "247DD31FF5112175756A593E360FD67C3D9BDAB7C9ECD908276315B4BF9A6F6F",
+                                "Index": 1,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 31,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLo4sdbuvn.fy1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "cc40dd09-4b46-4a24-a040-58bfce5cb169",
+            "Description": "Click 'LogOutLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "ScrollToVisibleType": 0,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.letmecall.com/food-delivery-in-hyderabad-telangana-500098",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Food Delivery From Chefs in Hyderabad, CA | Let Me Call",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "FoodDeliveryFromChefsIn"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "8/HMmHqPfV+cOqZMOr9hFy5cq5s=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LogOutLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/logout"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/div[1]/div[1]/ul[1]/li[4]/a[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "FD545D99221E1FF7DC157C706CFF61C6BCBA000A26F7BA8AA8D80519C7842D63",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 32,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "LETMECALLuufydo4h.b4n",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "Letmecall.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "LETMECALL.resx",
+    "ElementImageStoreFilePath": "LETMECALL.imgstore",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "LETMECALL",
+    "Owner": "",
+    "Path": "LETMECALL.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "83bf8533-089b-4ae7-b0b8-39ac17db90a4",
+    "Id": "83bf8533-089b-4ae7-b0b8-39ac17db90a4",
+    "ProjectId": "7ec68e4c-78de-4aad-bfac-15f7a37d0119",
+    "Version": 200
+  }
+}
