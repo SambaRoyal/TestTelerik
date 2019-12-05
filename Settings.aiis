@@ -217,7 +217,7 @@
       "Telerik.TestStudio.Translators.Common, Version=2019.3.1030.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
     ],
-    "ScheduleServerUrl": "http://localhost:8009",
+    "ScheduleServerUrl": "http://localhost:8009/",
     "IsScheduleServerRemote": false,
     "NotificationSettings": null,
     "ProjectVersion": "2019.3.919.0",
@@ -225,10 +225,7 @@
     "AssemblyName": "Letmecall",
     "OutputFolder": "bin",
     "ExcludedFiles": [],
-    "InDevelopmentFiles": [
-      "Letmecall_Signup.tstest",
-      "Letmecall_Signup.tstest.vb"
-    ],
+    "InDevelopmentFiles": [],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": true,
     "BugTrackerPersistableSettings": {
