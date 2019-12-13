@@ -225,7 +225,9 @@
     "AssemblyName": "Letmecall",
     "OutputFolder": "bin",
     "ExcludedFiles": [],
-    "InDevelopmentFiles": [],
+    "InDevelopmentFiles": [
+      "WebTest.tstest"
+    ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": true,
     "BugTrackerPersistableSettings": {
